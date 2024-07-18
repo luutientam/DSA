@@ -1,2 +1,0 @@
-# algorithm
-hi anh em 
