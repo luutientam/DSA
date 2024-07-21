@@ -52,7 +52,7 @@ void tong(int arr[], int n)
 {
     int snt = 0;
     for (int i = 0; i < n; i++)
-    {   
+    {
         int tmp = arr[i];
         int ok = 0;
         while (tmp > 0)
@@ -99,5 +99,5 @@ int main()
     // so chinh phuong
     cout << soChinhPhuong(arr, n) << endl;
     // Số lượng số có tổng chữ số của nó là số nguyên  to
-    tong(arr,n);
+    tong(arr, n);
 }
