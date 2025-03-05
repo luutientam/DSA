@@ -15,6 +15,8 @@ int main()
     int tongL = 0;
     for (int i = 0; i < n; i++)
     {
+        int n;
+        cin >> n;
         if (arr[i] % 2 == 0)
         {
             demChan++;
@@ -24,6 +26,7 @@ int main()
         {
             demLe++;
             tongL += arr[i];
+            
         }
     }
     cout << demChan << endl

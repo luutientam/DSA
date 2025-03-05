@@ -26,7 +26,7 @@ int main()
             }
             if (dem == 0)
             {
-                sum += arr[i];
+                sum += arr[i];      
                 demtbc++;
             }
         }
